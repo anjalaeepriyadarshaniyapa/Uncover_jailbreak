@@ -1,0 +1,149 @@
+<html>
+
+<head>
+  <title>Silze & Checkra</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+  .container1 {
+    background-color: #FFFFFF;
+    height: 90%;
+  }
+
+  .container {
+    background-color: Teal;
+    position: relative;
+    top: 22px;
+    width: 80%;
+    height: 5%;
+    border-radius: 15px;
+    border: none;
+    color: #FFFAFA;
+    background-color: #191970;
+  }
+
+  #iphone {
+    width: 90%;
+    height: 9%;
+    padding: 10px;
+  }
+
+  #version {
+    width: 90%;
+    height: 9%;
+    padding: 10px;
+  }
+
+  #os {
+    width: 90%;
+    height: 9%;
+
+  }
+
+
+
+  @media screen and (min-width: 350px) {
+    .change {
+      padding-top: 25px;
+    }
+
+  }
+
+  @media screen and (min-width: 600px) {
+    .change {
+      padding-top: 0px;
+    }
+  }
+  </style>
+</head>
+
+<body style="background-color:#F4F4F4; position:relative; top:5%">
+
+  <div class="container1">
+
+
+
+    <div class="title">
+      <h2 style="text-align: center; color:Teal;"> Silze</h2>
+        <h2 style="text-align: Center;color:Teal;"> Jailbreak</h2>
+    </div>
+
+    <div class="container" style="border-radius: 5px;">
+      <div class="fr" style="padding: 40px;">
+        <form action="#" method="POST">
+          <div class="row">
+            <div class="iphn">
+              <div class="col-md-3">
+                <lable class="lbl_title">i phone</lable>
+                <center> <select name="iphone" id="sel-device" class="form-control">
+                     <option value="iphone select">Select iphone</option>
+               
+                  </select></center>
+              </div>
+
+
+            </div>
+
+            <div class="version change">
+              <div class="col-md-3">
+                <lable class="lbl_title">Model</lable>
+                <center> <select name="version" id="sel-models" class="form-control">
+                     <option value="iphone version">Select Model</option>
+               
+                  </select></center>
+              </div>
+            </div>
+
+            <div class="os change">
+              <div class="col-md-3">
+                <lable class="lbl_title">version</lable>
+                <center> <select name="os" id="sel-version" class="form-control">
+                     <option value="iphone select">Select Version</option>
+               
+                  </select></center>
+              </div>
+            </div>
+
+            <div class="bt change">
+              <div class="col-md-3">
+                <center>
+                  <div class="btn1" style="margin-bottom: 15px;">
+                    <Button id="btn-jailbreak" type="submit" class="subBtn">Check for Jailbreak</Button>
+                  </div>
+                </center>
+              </div>
+            </div>
+
+          </div>
+        </form>
+        <div class="row justify-content-center">
+          <div class="col-6" id="div-result">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+  integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+
+
+
+</html>
